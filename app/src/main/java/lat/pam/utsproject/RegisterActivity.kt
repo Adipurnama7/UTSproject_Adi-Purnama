@@ -36,7 +36,7 @@ class RegisterActivity : AppCompatActivity() {
                 editor.apply()
 
                 Toast.makeText(this, "Registrasi berhasil!", Toast.LENGTH_SHORT).show()
-                finish() // Menutup activity dan kembali ke sebelumnya
+                finish()
             }
         }
     }

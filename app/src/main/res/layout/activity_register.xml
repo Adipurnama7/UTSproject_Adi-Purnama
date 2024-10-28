@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
-    android:background="@drawable/bg"><!-- Menambahkan latar belakang putih -->
+    android:background="@drawable/bg">
 
     <!-- Title TextView -->
     <TextView

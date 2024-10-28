@@ -6,15 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginTop="25dp"
-    android:layout_marginLeft="25dp"
-    android:layout_marginRight="25dp"
-    android:layout_marginBottom="25dp"
+    android:padding="24dp"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
-    <!-- Logo Aplikasi -->
-
-    <!-- Username Field -->
 
     <ImageView
         android:id="@+id/logo"

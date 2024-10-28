@@ -33,7 +33,6 @@ class FoodAdapter(private val context: Context, private val foodList: List<Food>
     override fun getItemCount() = foodList.size
 
     class FoodViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        // Pastikan ID sesuai dengan yang ada di item_layout_food.xml
         private val nameTextView: TextView = itemView.findViewById(R.id.foodName)
         private val descriptionTextView: TextView = itemView.findViewById(R.id.foodDescription)
         private val imageView: ImageView = itemView.findViewById(R.id.foodImage)
