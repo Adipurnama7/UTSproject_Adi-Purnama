@@ -13,15 +13,17 @@
     tools:context=".MainActivity">
 
     <!-- Logo Aplikasi -->
+
+    <!-- Username Field -->
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_foreground"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_launcher_foreground" />
 
-    <!-- Username Field -->
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -58,9 +60,10 @@
         android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
         android:layout_gravity="center"
         android:clickable="true"
-        android:focusable="true"/>
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:text="@string/register" />
 
 </LinearLayout>
