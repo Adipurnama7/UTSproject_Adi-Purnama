@@ -15,7 +15,7 @@ class OrderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order)
 
-        val foodNameEditText = findViewById<EditText>(R.id.etFoodName) // Pastikan ini adalah EditText
+        val foodNameEditText = findViewById<EditText>(R.id.etFoodName)
         val servingsEditText = findViewById<EditText>(R.id.etServings)
         val nameEditText = findViewById<EditText>(R.id.etName)
         val notesEditText = findViewById<EditText>(R.id.etNotes)
